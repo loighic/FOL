@@ -1,6 +1,6 @@
 
 
-~~~{.ProofChecker .magnusQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
+~~~{.ProofChecker .ForallxQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
 2.1 ExFx, Ax(Fx or Gx) :|-: ExGx 
 2.2 AxFx :|-: AyF(y)
 2.3 Ax(Fx -> Gx), AxFx :|-: AxG(x)
@@ -11,7 +11,7 @@
 2.8 Ex((Fx & Ay(Fy -> y=x)) & Gx), ~Ga :|-: ~Fa
 ~~~ 
 
-~~~{.ProofChecker .magnusQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
+~~~{.ProofChecker .ForallxQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
 3.1 Ex~F(x), Ax(F(x) v G(x)) :|-: ExG(x) 
 3.2 G(a) <-> H(a), a=d :|-: G(d) <-> H(d)
 3.3 Ax(G(x,a) -> x=a), G(b,a) :|-: Ax(G(x,b) -> x=b)
