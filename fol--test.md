@@ -11,7 +11,7 @@
 2.8 Ex((F(x) & Ay(F(y) -> y=x)) & G(x)), ~G(a) :|-: ~F(a)
 ~~~ 
 
-~~~{.ProofChecker .JohnsonFOL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
+~~~{.ProofChecker .johnsonFOL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
 3.1 Ex~F(x), Ax(F(x) or G(x)) :|-: ExG(x) 
 3.2 G(a) <-> H(a), a=d :|-: G(d) <-> H(d)
 3.3 Ax(G(x,a) -> x=a), G(b,a) :|-: Ax(G(x,b) -> x=b)
@@ -21,4 +21,4 @@
 3.7 AxAyAz((L(x,y) & L(y,z)) -> L(x,z)), L(a,b), L(b,c) :|-: L(a,c)
 ~~~
 
-<font size="6.5">&#9786;</font> !!
+<font size="6.5">&#9786;</font>
