@@ -2,7 +2,7 @@ name: 'Deploy markdown files to Carnap'
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   deploy:
