@@ -21,4 +21,4 @@
 3.7 AxAyAz((L(x,y) & L(y,z)) -> L(x,z)), L(a,b), L(b,c) :|-: L(a,c)
 ~~~
 
-<font size="6.5">&#9786;</font> !!!
+<font size="6.5">&#9786;</font> !
