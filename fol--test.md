@@ -1,7 +1,7 @@
 
 
 ~~~{.ProofChecker .magnusQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
-2.1 Ex~Fx, Ax(Fx v Gx) :|-: ExGx 
+2.1 ExFx, Ax(Fx v Gx) :|-: ExGx 
 2.2 AxFx :|-: AyF(y)
 2.3 Ax(Fx -> Gx), AxFx :|-: AxG(x)
 2.4 Ax(Fx -> Gx), Fa :|-: Ex(Fx & Gx)
