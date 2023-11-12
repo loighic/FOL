@@ -1,6 +1,6 @@
 
 
-~~~{.ProofChecker .ZachFOLPlus2019 options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
+~~~{.ProofChecker .magnusQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
 2.1 Ex~F(x), Ax(F(x) \/ G(x)) :|-: ExG(x) 
 2.2 AxF(x) :|-: AyF(y)
 2.3 Ax(F(x) -> G(x)), AxF(x) :|-: AxG(x)
@@ -11,8 +11,8 @@
 2.8 Ex((F(x) & Ay(F(y) -> y=x)) & G(x)), ~G(a) :|-: ~F(a)
 ~~~ 
 
-~~~{.ProofChecker .tomassiQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
-3.1 Ex~F(x), Ax(F(x) or G(x)) :|-: ExG(x) 
+~~~{.ProofChecker .magnusQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
+3.1 Ex~F(x), Ax(F(x) v G(x)) :|-: ExG(x) 
 3.2 G(a) <-> H(a), a=d :|-: G(d) <-> H(d)
 3.3 Ax(G(x,a) -> x=a), G(b,a) :|-: Ax(G(x,b) -> x=b)
 3.4 M(a) \/ N(b), N(b) -> b=d, ~M(a) :|-: N(d)
