@@ -1,14 +1,14 @@
 
 
 ~~~{.ProofChecker .magnusQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
-2.1 Ex~F(x), Ax(F(x) \/ G(x)) :|-: ExG(x) 
-2.2 AxF(x) :|-: AyF(y)
-2.3 Ax(F(x) -> G(x)), AxF(x) :|-: AxG(x)
-2.4 Ax(F(x) -> G(x)), F(a) :|-: Ex(F(x) & G(x))
-2.5 ExF(x) :|-: Ex(F(x) or G(x))
-2.6 Ex(F(x) -> P), AxF(x) :|-: P
-2.7 Ex(F(x) -> G(x)), AxF(x) :|-: ExG(x)
-2.8 Ex((F(x) & Ay(F(y) -> y=x)) & G(x)), ~G(a) :|-: ~F(a)
+2.1 Ex~Fx, Ax(Fx v Gx) :|-: ExGx 
+2.2 AxFx :|-: AyF(y)
+2.3 Ax(Fx -> Gx), AxFx :|-: AxG(x)
+2.4 Ax(Fx -> Gx), Fa :|-: Ex(Fx & Gx)
+2.5 ExFx :|-: Ex(Fx or Gx)
+2.6 Ex(Fx -> P), AxFx :|-: P
+2.7 Ex(Fx -> Gx), AxFx :|-: ExGx
+2.8 Ex((Fx & Ay(Fy -> y=x)) & Gx), ~Ga :|-: ~Fa
 ~~~ 
 
 ~~~{.ProofChecker .magnusQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
