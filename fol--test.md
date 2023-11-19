@@ -1,14 +1,7 @@
 
 
 ~~~{.ProofChecker .ForallxQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
-2.1 Ex~Fx, Ax(Fx or Gx) :|-: ExGx 
-2.2 AxFx :|-: AyFy
-2.3 Ax(Fx -> Gx), AxFx :|-: AxGx
-2.4 Ax(Fx -> Gx), Fa :|-: Ex(Fx & Gx)
-2.5 ExFx :|-: Ex(Fx or Gx)
-2.6 Ex(Fx -> P), AxFx :|-: P
-2.7 Ex(Fx -> Gx), AxFx :|-: ExGx
-2.8 Ex((Fx & Ay(Fy -> y=x)) & Gx), ~Ga :|-: ~Fa
+2.1 
 ~~~ 
 
 ~~~{.ProofChecker .ForallxQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
