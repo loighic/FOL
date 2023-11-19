@@ -1,6 +1,6 @@
 
 
-~~~{.ProofChecker .magnusQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
+~~~{.ProofChecker .ForallxQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
 2.1 Ex~Fx, Ax(Fx or Gx) :|-: ExGx 
 2.2 AxFx :|-: AyFy
 2.3 Ax(Fx -> Gx), AxFx :|-: AxGx
