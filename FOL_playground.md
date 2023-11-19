@@ -2,5 +2,5 @@
 
 ---
 
-~~~{.Playground .ForallxQL options="fonts tabindent resize render" guides="fitch"} 
+~~~{.Playground .ForallxQLPlus options="fonts tabindent resize render" guides="fitch"} 
 ~~~
