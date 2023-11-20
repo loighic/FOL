@@ -1,6 +1,6 @@
 
 
-~~~{.ProofChecker .ForallxQL options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="10" late-credit="9"}
 2.1 
 ~~~ 
 
