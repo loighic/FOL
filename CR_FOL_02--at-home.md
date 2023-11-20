@@ -11,8 +11,8 @@ js: https://carnap.io/shared/gregory.s.johnson@gmail.com/copy.js
 ---
 
 ~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="20" late-credit="17"}
-17.1 
-17.2
+17.1 N <-> Q, ~Q :|-: ~N
+17.2 (P & T) v S :|-: T -> ~S
 ~~~
 
 
