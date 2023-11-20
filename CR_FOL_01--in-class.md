@@ -1,6 +1,10 @@
 ## first-order logic, assignment 01 (in-class)
 
+---
+
 Provide a proof for each argument. The first will be a proof in TFL. 16.2 - 16.4 will be proofs in FOL.
+
+For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;). Don't put parentheses around the names or variables. Use this format: Fa and ExFx.
 
 ---
 
