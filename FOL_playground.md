@@ -10,8 +10,9 @@ Begin by listing the premise or premises, and then work to the conclusion. When 
 ~~~
 
 ---
+
 ¬Wc, ∀x(Px ∨ Wx) &vdash; &exist;yPy
 
-(&exist;x[Gx&Nx]→∀xHx),([Gc&Fc]&Nc)&vdash;Hc
+&exist;x(Gx & Nx) → ∀xHx,(Gc&Fc) & Nc &vdash; Hc
 
 ---
