@@ -14,7 +14,7 @@ js: https://carnap.io/shared/gregory.s.johnson@gmail.com/copy.js
 17.1 N <-> Q, ~Q :|-: ~N
 ~~~
 
-Notice that the main logical operator in &not;(P &rarr; Q) is the &not; (not the &rarr;). Hence, you can't use the conditional introduction rule to get the conclusion. 
+Notice that the main logical operator in &not;(P &rarr; Q) is the &not;. Hence, you can't use the conditional introduction rule to get the conclusion. 
 
 ~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="20" late-credit="17"}
 17.2 P & ~Q :|-: ~(P -> Q)
