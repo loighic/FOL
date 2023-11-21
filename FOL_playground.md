@@ -11,7 +11,7 @@ Begin by listing the premise or premises, and then work to the conclusion. When 
 
 ---
 
-Here are some valid arguments that you can try.
+Here are some valid arguments for which you can try to create proofs.
 
 ¬Wc, ∀x(Px ∨ Wx) &vdash; &exist;yPy
 
