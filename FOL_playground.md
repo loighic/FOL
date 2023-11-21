@@ -13,9 +13,16 @@ Begin by listing the premise or premises, and then work to the conclusion. When 
 
 Here are some valid arguments that you can try.
 
-<p>¬Wc, ∀x(Px ∨ Wx) &vdash; &exist;yPy</p>
-<p>&exist;x(Gx & Nx) → ∀xHx, (Gc & Fc) & Nc &vdash; Hc</p>
-<p>¬Ta, Ra → ∀x(Nx ↔ (Tx ∨ Qx)), ∀x(Nx & Rx) &vdash; &exist;yQy</p>
-<p>(&exist;yTy → Se) ↔ Nc, ∀xPx & ¬Qc, ∀x(Nx ∨ Qx) & Te &vdash; &exist;x(Sx & Px)</p>
+¬Wc, ∀x(Px ∨ Wx) &vdash; &exist;yPy
+
+∀x(Fx ↔ ¬Gx), ∀x¬Gx &vdash; &exist;xFx
+
+¬Fe ↔ ∀xGx, ∀y¬Hy, ∀x(Hx ∨ ¬Fx) &vdash; Ga
+
+&exist;x(Gx & Nx) → ∀xHx, (Gc & Fc) & Nc &vdash; Hc
+
+¬Ta, Ra → ∀x(Nx ↔ (Tx ∨ Qx)), ∀x(Nx & Rx) &vdash; &exist;yQy
+
+(&exist;yTy → Se) ↔ Nc, ∀xPx & ¬Qc, ∀x(Nx ∨ Qx) & Te &vdash; &exist;x(Sx & Px)
 
 ---
