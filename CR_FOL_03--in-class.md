@@ -19,7 +19,7 @@ If you get stuck on 18.2, think about what the main logical operator is in &fora
 ~~~
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="25" late-credit="17"}
-18.3 Pa -> Sa, AxAy(Px  <-> Qy), Qb :|-: Sa
+18.3 Pa -> Sa, AxAy(Px  <-> Qy), Qb :|-: EzSz
 18.4 AxAy(Rxy -> Ty), Az(Raz & Mz) :|-: AyTy
 ~~~ 
 
