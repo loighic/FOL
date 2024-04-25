@@ -12,7 +12,7 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 19.1 S v (~P & T), ~P -> Q, ~Q v ~T :|-: T -> S
 ~~~
 
-If you get stuck on 18.2, think about what the main logical operator is in &forall;xRx &rarr; &forall;y&not;Sy.
+If you get stuck on 19.2, think about what the main logical operator is in &forall;xRx &rarr; &forall;y&not;Sy.
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="25" late-credit="17"}
 19.2 AxRx -> Ay~Sy, AxRx, Sa v Qe :|-: Qe
