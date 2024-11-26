@@ -17,7 +17,7 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
 21.3 Ax(Fx -> Gx), AxFx :|-: AxGx
 21.4 AxAy(Fx -> Gy), Fa :|-: AxGx
-21.5 Ax(Px -> (Qa v Ta)), AxPx, ~Qa :|-: AxTx & Ey~Qy
+21.5 Ax(Px -> (Qa v Tx)), AxPx, ~Qa :|-: AxTx & Ey~Qy
 ~~~ 
 
 <p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
