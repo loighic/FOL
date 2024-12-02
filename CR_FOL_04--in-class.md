@@ -6,7 +6,7 @@ Provide a proof for each argument. 22.1 - 22.3 will be proofs in TFL. 22.4 - 22.
 
 There will not be feedback at the end of each line for proofs 22.2 - 22.5. These (like the others) can only be submitted when they are correct, however.
 
-For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;). Don't put parentheses around the names or variables. Use this format: Fa and ExFx.
+For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;).
 
 ---
 
