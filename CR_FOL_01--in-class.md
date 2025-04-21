@@ -1,4 +1,4 @@
-## first-order logic, assignment 01 (in-class)
+## first-order logic, assignment 01 (meeting)
 
 ---
 
@@ -19,6 +19,6 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 18.4 Ay~(Cy & Dy), (Ca & Da) v (ExFx -> AyGy), Fa :|-: Ga
 ~~~ 
 
-<p>&copy; 2023 - <script>document.write(new Date().getFullYear())</script> Gregory Johnson</p>
+<p>&copy; 2023 - <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
  
 ---
