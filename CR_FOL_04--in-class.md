@@ -1,4 +1,4 @@
-## first-order logic, assignment 05 (in-class)
+## first-order logic, assignment 05 (meeting)
 
 ---
 
