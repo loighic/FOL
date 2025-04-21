@@ -35,6 +35,6 @@ You can also work on proofs of FOL in the space below. Begin by listing the prem
 ~~~
 
 
-<p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
+<p>&copy; 2023 - <script>document.write(new Date().getFullYear())</script> Gregory Johnson</p>
  
 ---
