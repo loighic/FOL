@@ -1,4 +1,4 @@
-## FOL proofs, practice problems
+## FOL proofs practice problems
 
 ---
 
