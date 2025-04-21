@@ -2,7 +2,7 @@
 
 ---
 
-Provide a proof for each argument. The first will be a proof in TFL. 17.2 - 17.4 will be proofs in FOL.
+Provide a proof for each argument. The first will be a proof in TFL. 18.2 - 18.4 will be proofs in FOL.
 
 For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;). 
 
