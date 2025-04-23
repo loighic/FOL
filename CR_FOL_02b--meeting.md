@@ -1,4 +1,4 @@
-## first-order logic, assignment 02 (meeting)
+## first-order logic assignment 02 (meeting)
 
 ---
 
@@ -11,6 +11,6 @@ Use A for the universal quantifier (&forall;) and E for the existential quantifi
 19.2 AxAy(Rxy -> Ty), Az(Rez & Ma) :|-: AyTy
 ~~~ 
 
-<p>&copy; 2022 - <p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
+<p>&copy; 2022 - <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
  
 ---
