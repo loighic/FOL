@@ -2,7 +2,7 @@
 js: https://carnap.io/shared/gregory.s.johnson@gmail.com/copy.js
 --- 
 
-## first-order logic, assignment 03 (at-home)
+## first-order logic assignment 03 (at-home)
 
 ---
 
