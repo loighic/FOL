@@ -1,27 +1,28 @@
-## first-order logic, assignment 03 (in-class)
+## first-order logic, assignment 04 (meeting)
 
 ---
 
-Provide a proof for each argument. The first will be a proof in TFL. 20.2 - 20.4 will be proofs in FOL.
+Provide a proof for each argument. The first will be a proof in TFL. 21.2 - 21.4 will be proofs in FOL.
 
 For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;). 
 
 ---
 
 ~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="25" late-credit="17"}
-20.1 S v (~P & T), ~P -> Q, ~Q v ~T :|-: T -> S
+21.1 S v (~P & T), ~P -> Q, ~Q v ~T :|-: T -> S
 ~~~
 
-If you get stuck on 20.2, think about what the main logical operator is in &forall;xRx &rarr; &forall;y&not;Sy.
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="25" late-credit="17"}
-20.2 AxRx -> Ay~Sy, AxRx, Sa v Qe :|-: Qe
+21.2 AxRx -> Ay~Sy, AxRx, Sa v Qe :|-: Qe
 ~~~
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="25" late-credit="17"}
-20.3 Pa -> Sa, AxAy(Px  <-> Qy), Qb :|-: EzSz
-20.4 AxAy(Rxy -> Ty), Az(Raz & Mz) :|-: AyTy
+21.3 Pa -> Sa, AxAy(Px  <-> Qy), Qb :|-: EzSz
+21.4 AxAy(Rxy -> Ty), Az(Raz & Mz) :|-: AyTy
 ~~~ 
+
+<font size="6.5">&#9786;</font>
 
 <p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
  
