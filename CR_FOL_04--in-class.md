@@ -1,4 +1,4 @@
-## first-order logic, assignment 05 (meeting)
+## first-order logic, assignment 05 (at-home)
 
 ---
 
