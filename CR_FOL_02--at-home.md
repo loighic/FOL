@@ -26,3 +26,5 @@ Notice that the main logical operator in &not;(P &rarr; Q) is the &not;. Hence, 
 19.4 (Fa v Qc) -> AxGx, AxFx :|-: Ex(Gx v Px)
 19.5 AzRz, Ay(Sy <-> Ry), Sa -> Wa :|-: ExWx
 ~~~ 
+
+<p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
