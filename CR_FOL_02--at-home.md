@@ -31,9 +31,9 @@ Notice that the main logical operator in &not;(P &rarr; Q) is the &not;. Hence, 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="17"}
 19.4 (Fa v Qc) -> AxGx, AxFx :|-: Ex(Gx v Px)
 |1.(Fa v Qc) -> AxGx	:PR
-|2.AxFx		:PR
-|3.Fa		:AE 2
-|4.Fa v Qc		:vI
+|2.AxFx			:PR
+|3.Fa			:AE 2
+|4.Fa v Qc			:vI
 ~~~
 
 
