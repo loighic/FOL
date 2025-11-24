@@ -11,6 +11,8 @@ Use A for the universal quantifier (&forall;) and E for the existential quantifi
 20.2 Ax(Pa -> Wx), AxPx :|-: AyWy
 ~~~
 
+See the handout for guidance with 20.3.
+
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="31" late-credit="20"}
 20.3 AxAy(Txy & My), Ax(Tcx -> Px) :|-: AxPx
 20.4 AxAy(Rxy -> Ty), Az(Rez & Ma) :|-: AyTy
