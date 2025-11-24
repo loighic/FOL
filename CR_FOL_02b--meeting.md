@@ -1,4 +1,4 @@
-## first-order logic assignment 02 (meeting)
+## first-order logic assignment 03 (meeting)
 
 ---
 
