@@ -20,6 +20,13 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
 21.3 Ax(Fx -> Gx), AxFx :|-: AxGx
 21.4 AxAy(Fx -> Gy), Fa :|-: AxGx
+|1.AxAy(Fx -> Gy)	:PR
+|2.Fa	:PR
+|3.Ay(Fa -> Gy)	:AE 1
+~~~
+
+
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
 21.5 Ax(Px -> (Qa v Tx)), AxPx, ~Qa :|-: AxTx & Ey~Qy
 ~~~ 
 
