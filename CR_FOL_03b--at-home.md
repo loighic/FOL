@@ -4,7 +4,6 @@
 
 <font color="#9900FF">**Do this alone**, and don't discuss it with anyone who hasn't done it. If you need help, contact the instructor.</font>
 
-For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;). 
 
 ---
 
@@ -13,6 +12,11 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 21.2 S <-> Q, ~(S v T) :|-: ~Q
 ~~~
 
+---
+
+For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;). 
+
+---
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
 21.3 Ax(Fx -> Gx), AxFx :|-: AxGx
