@@ -21,7 +21,7 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 21.3 Ax(Fx -> Gx), AxFx :|-: AxGx
 21.4 AxAy(Fx -> Gy), Fa :|-: AxGx
 |1.AxAy(Fx -> Gy)	:PR
-|2.Fa	:PR
+|2.Fa		:PR
 |3.Ay(Fa -> Gy)	:AE 1
 ~~~
 
