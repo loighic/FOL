@@ -6,7 +6,7 @@
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="1" late-credit="1"}
 22.1 AxAyMxy :|-: Mce
-22.2 AxLx & ((Pa <-> Hb) v (Lc & Pe)) :|-: AzLz 
+22.2 Ax(Lx & Qx) & ((Pa <-> Hb) v (Lc & Pe)) :|-: AzLz 
 ~~~
 
 **main problems**
