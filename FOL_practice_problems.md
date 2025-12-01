@@ -6,22 +6,36 @@ These are optional, and you can work on them with others. They can't be submitte
 
 ---
 
+**Part 1**
+
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch"  submission="none"}
-0.1 ~Wc, Ax(Px v Wx) :|-: EyPy
-0.2 Ax(Fx <-> ~Gx), Ax~Gx :|-: ExFx
-0.3 ~Fe <-> AxGx, Ay~Hy, Ax(Hx v ~Fx) :|-: Ga
-0.4 Ex(Gx & Nx) -> AxHx, (Gc & Fc) & Nc :|-: Hc
-0.5 ~Ta, Ra -> Ax(Nx <-> (Tx v Qx)), Ax(Nx & Rx) :|-: EyQy
-0.6 (EyTy -> Se) <-> Nc, AxPx & ~Qc, Ax(Nx v Qx) & Te :|-: Ex(Sx & Px)
+0.1 AxHx :|-: He
+0.2 Ay(Py v Ty) :|-: Pn v Tn
+0.3 Gc :|-: EyGy
+0.4 Me <-> Pe :|-: Ez(Mz <-> Pz)
+0.5 AxAy(Lx -> Py) :|-: Ay(La -> Py) 
 ~~~
+
+**Part 2**
+
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch"  submission="none"}
+0.6 ~Wc, Ax(Px v Wx) :|-: EyPy
+0.7 Ax(Fx <-> ~Gx), Ax~Gx :|-: ExFx
+0.8 ~Fe <-> AxGx, Ay~Hy, Ax(Hx v ~Fx) :|-: Ga
+0.9 Ex(Gx & Nx) -> AxHx, (Gc & Fc) & Nc :|-: Hc
+0.10 ~Ta, Ra -> Ax(Nx <-> (Tx v Qx)), Ax(Nx & Rx) :|-: EyQy
+0.11 (EyTy -> Se) <-> Nc, AxPx & ~Qc, Ax(Nx v Qx) & Te :|-: Ex(Sx & Px)
+~~~
+
+**Part 3**
 
 You have to use the universal introduction rule in the following proofs. Check chapter 19, and be careful with the names that you use in the proof.
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch"  submission="none"}
-0.7 Sa -> Ax(Px & Qx), AxSx :|-: AxQx
-0.8 ~ExPx v Ay(Sy & Ty), Pa & Qa :|-: AyTy 
-0.9 EyMy -> Ax(Qx & Wx), Ax(Mx <-> Px), Pa :|-: AzWz
-0.10 Ax(Mx & Sx) <-> (Tc v Wa), Ay(Ry v Ty), ~Rc :|-: AxMx 
+0.12 Sa -> Ax(Px & Qx), AxSx :|-: AxQx
+0.13 ~ExPx v Ay(Sy & Ty), Pa & Qa :|-: AyTy 
+0.14 EyMy -> Ax(Qx & Wx), Ax(Mx <-> Px), Pa :|-: AzWz
+0.15 Ax(Mx & Sx) <-> (Tc v Wa), Ay(Ry v Ty), ~Rc :|-: AxMx 
 ~~~
 
 
