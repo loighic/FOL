@@ -1,35 +1,21 @@
-## first-order logic, assignment 05 (at-home)
-
----
-
-Provide a proof for each argument. 22.1 - 22.3 will be proofs in TFL. 22.4 - 22.7 will be proofs in FOL.
-
-There will not be feedback at the end of each line for proofs 22.1 & 22.2 and 22.4 & 22.5. These (like the others) can only be submitted when they are correct, however.
-
-For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;).
+## first-order logic, assignment 04 (meeting)
 
 ---
 
 
-~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" feedback="none" guides="fitch" points="12" late-credit="8"}
-22.1 M -> ~P, P :|-: ~M 
-22.2 Q -> (R & T), Q v R :|-: R
+~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="25" late-credit="17"}
+21.1 S v (~P & T), ~P -> Q, ~Q v ~T :|-: T -> S
 ~~~
 
-~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="18" late-credit="12"}
-22.3 ~(S v T) :|-: ~S & ~T
-~~~
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" feedback="none" guides="fitch" points="12" late-credit="8"}
-22.4 AyFy, AzMz :|-: Ex(Fx & Mx)
-22.5 Ay(Fy v Gy), Ax~Fx :|-: ExGx
-~~~
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="25" late-credit="17"}
+21.2 Pa -> Sa, AxAy(Px  <-> Qy), Qb :|-: EzSz
+21.3 AxAy(Rxy -> Ty), Az(Raz & Mz) :|-: AyTy
+21.4 Ha & Ax~Dx, Ay[Ny v Dy] <-> Ex(Fx v Hx) :|-: AzNz
+~~~ 
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="18" late-credit="12"}
-22.6 Ax(Px v ~Qx), AxAy(Sx -> Qy), Sa & Na :|-: Pe
-22.7 AxAy(~Nx <-> Ly), Az(Fz v ~Nz), ~Fa :|-: AxLx
-~~~
+<font size="6.5">&#9786;</font>
 
-<p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Johnson</p>
+<p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
  
 ---
