@@ -2,7 +2,6 @@
 
 ---
 
----
 
 ~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="25" late-credit="17"}
 21.1 S v (~P & T), ~P -> Q, ~Q v ~T :|-: T -> S
