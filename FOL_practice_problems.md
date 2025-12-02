@@ -29,7 +29,7 @@ These are optional, and you can work on them with others. They can't be submitte
 
 **Part 3**
 
-You have to use the universal introduction rule in the following proofs. Check chapter 19, and be careful with the names that you use in the proof.
+You have to use the universal introduction rule in the following proofs. Check chapter 19, and be careful with the names that you use.
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch"  submission="none"}
 0.12 Sa -> Ax(Px & Qx), AxSx :|-: AxQx
