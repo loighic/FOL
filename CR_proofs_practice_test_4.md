@@ -34,5 +34,10 @@ These do not count toward your grade.
 0.12 T -> (P -> Q) :|-: (T & P) -> Q 
 0.13 S & ~T, Q -> (S -> N) :|-: (Q v T) -> N 
 0.14 T -> P, ~P v S :|-: (Q & T) -> (Q & S)
-
+0.15 Q, (P -> ~Q) :|-: ~P
+0.16 (S & T), (P <-> [Q & ~S]) :|-: ~P
+0.17 (~M v T) :|-: (M -> T)
+0.18 (S -> [Q & R]), (~[Q & S] <-> T):|-: (S -> ~T)
+0.19 (M v P) :|-: (P v M)
+0.20 (Q -> T), (P -> S), (P v Q) :|-: (S v T)
 ~~~
