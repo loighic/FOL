@@ -20,7 +20,7 @@ These do not count toward your grade.
 0.3 Az(~Tz & Wz), Ax(Wx <-> [Qx v Tx]) :|-: Qa
 0.4 Ax~Dx, Ax(Bx -> [Lx v Dx]), Bm :|-: EzLz
 0.5 (Tec -> AxMx), AxAy(Txy & Px) :|-: Ma
-0.6 AxAy(Txy -> ~Rc), (Ma & Tcn) :|-: Ex¬~Rx
+0.6 AxAy(Txy -> ~Rc), (Ma & Tcn) :|-: Ex~Rx
 0.7 AzMz, (Ex[Rx & Mx] -> Ay[Qy v ~My]), (Rc <-> Mc) :|-: ExQx
 0.8 AxAy(Px -> My), (Pa & Dc) :|-: AxMx
 0.9 Ay(Fy -> ~Gy), AzFz, Ax(Ga v Hx) :|-: AxHx
