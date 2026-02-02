@@ -20,25 +20,41 @@ Notice that the main logical operator in &not;(P &rarr; Q) is the &not;. Hence, 
 19.2 P & ~Q :|-: ~(P -> Q)
 ~~~
 
+---
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="17"}
-19.3 Ax(Fx -> Gx), Fa :|-: Ex(Fx & Gx)
+**FOL warm-up problems**
+
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="2" late-credit="1"}
+19.3 AxMx :|-: Ma
+19.4 Az(Lz -> Mz) :|-: Lc <-> Mc
+19.5 Fa :|-: EzFz
+19.6 Da v Ka :|-: Ex(Dx v Kx)
+19.7 Pe	:|-: Ey(Ly v Py)
+~~~
+
+---
+
+**FOL main problems**
+
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="10" late-credit="7"}
+19.8 Ax(Fx -> Gx), Fa :|-: Ex(Fx & Gx)
 |1.Ax(Fx -> Gx)	:PR
 |2.Fa		:PR
 |3.Fa -> Ga	:AE 1
 ~~~
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="17"}
-19.4 (Fa v Qc) -> AxGx, AxFx :|-: Ex(Gx v Px)
+19.9 (Fa v Qc) -> AxGx, AxFx :|-: Ex(Gx v Px)
 |1.(Fa v Qc) -> AxGx	:PR
 |2.AxFx			:PR
 |3.Fa			:AE 2
 |4.Fa v Qc			:vI
 ~~~
 
+If you're not sure how to begin, start by doing universal elimination (if that's an option). In 19.10, you can do universal elimination with the sentence on line 1 and the one on line 2.
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="17"}
-19.5 AzRz, Ay(Sy <-> Ry), Sa -> Wa :|-: ExWx
+19.10 AzRz, Ay(Sy <-> Ry), Sa -> Wa :|-: ExWx
 ~~~ 
 
 <p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
