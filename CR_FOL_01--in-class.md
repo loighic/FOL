@@ -14,7 +14,7 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 
 ---
 
-**FOL warm-up problems**
+**FOL short proofs**
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="2" late-credit="1"}
 18.2 AxQx :|-: Qa
@@ -28,15 +28,12 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 
 **FOL main problems**
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="15" late-credit="12"}
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="22" late-credit="17"}
 18.7 Ax(Px & Rx), Ax(Px -> Qx) :|-: EyQy
-~~~
-
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="25" late-credit="17"}
 18.8 Ey(Ny v Ry) -> ~Rc, Ax(Nx v Rx) :|-: Nc
 18.9 Ay~(Cy & Dy), (Ca & Da) v (ExFx -> AyGy), Fa :|-: Ga
 ~~~ 
 
-<p>&copy; 2023 - <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
+<p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
  
 ---
