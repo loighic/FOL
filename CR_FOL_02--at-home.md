@@ -26,7 +26,7 @@ Notice that the main logical operator in &not;(P &rarr; Q) is the &not;. Hence, 
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="2" late-credit="1"}
 20.3 AxMx :|-: Ma
-20.4 Az(Lz -> Mz) :|-: Lc <-> Mc
+20.4 Az(Lz -> Mz) :|-: Lc -> Mc
 20.5 Fa :|-: EzFz
 20.6 Da v Ka :|-: Ex(Dx v Kx)
 20.7 Pe	:|-: Ey(Ly v Py)
