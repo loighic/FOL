@@ -8,6 +8,8 @@ js: https://carnap.io/shared/gregory.s.johnson@gmail.com/copy.js
 
 <font color="#9900FF">**Do this alone**, and don't discuss it with anyone who hasn't done it. If you need help, contact the instructor.</font>
 
+For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;). 
+
 ---
 
 ~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="20" late-credit="16"}
