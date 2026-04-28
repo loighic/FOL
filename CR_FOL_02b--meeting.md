@@ -6,18 +6,29 @@ Use A for the universal quantifier (&forall;) and E for the existential quantifi
 
 ---
 
+**FOL short proofs**
+
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="5" late-credit="3"}
+21.1 Se & Qe :|-: Ez(Sz & Qz)
+21.2 Az(Mz <-> Tc) :|-: Ma <-> Tc
+21.3 Ax(Fx -> EyGy) :|-: (Fe -> EyGy)
+21.4 Ha v Ma :|-: Ex(Hx v Ma)
+~~~
+
+**FOL main problems**
+
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
-20.1 Ax(Px <-> Qx), Qa :|-: EyPy
-20.2 Ax(Pa -> Wx), AxPx :|-: AyWy
+21.5 Ax(Px <-> Qx), Qa :|-: EyPy
+21.6 Ax(Pa -> Wx), AxPx :|-: AyWy
 ~~~
 
 See the handout for guidance with 20.3.
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="31" late-credit="20"}
-20.3 AxAy(Txy & My), Ax(Tcx -> Px) :|-: AxPx
-20.4 AxAy(Rxy -> Ty), Az(Rez & Ma) :|-: AyTy
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
+21.7 AxAy(Txy & My), Ax(Tcx -> Px) :|-: AxPx
+21.8 AxAy(Rxy -> Ty), Az(Rez & Ma) :|-: AyTy
 ~~~ 
 
-<p>&copy; 2022 - <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
+<p>&copy; <script>document.write(new Date().getFullYear())</script> Gregory Scott Johnson</p>
  
 ---
