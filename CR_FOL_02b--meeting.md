@@ -17,14 +17,14 @@ Use A for the universal quantifier (&forall;) and E for the existential quantifi
 
 **FOL main problems**
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="16"}
 21.5 Ax(Px <-> Qx), Qa :|-: EyPy
 21.6 Ax(Pa -> Wx), AxPx :|-: AyWy
 ~~~
 
 See the handout for guidance with 20.3.
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="16"}
 21.7 AxAy(Txy & My), Ax(Tcx -> Px) :|-: AxPx
 21.8 AxAy(Rxy -> Ty), Az(Rez & Ma) :|-: AyTy
 ~~~ 
