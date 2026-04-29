@@ -19,12 +19,12 @@
 
 **main problems**
 
-~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="20" late-credit="17"}
+~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="20" late-credit="16"}
 22.5 S v (~P & T), ~P -> Q, ~Q v ~T :|-: T -> S
 ~~~
 
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="17"}
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="16"}
 22.6 Pa -> Sa, AxAy(Px  <-> Qy), Qb :|-: EzSz
 22.7 AxAy(Rxy -> Ty), Az(Raz & Mz) :|-: AyTy
 22.8 Ha & Ax~Dx, Ay[Ny v Dy] <-> Ex(Fx v Hx) :|-: AzNz
