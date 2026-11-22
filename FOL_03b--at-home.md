@@ -16,7 +16,7 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 
 ---
 
-~~~{.ProofChecker .JohnsonSL options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
+~~~{.ProofChecker .JohnsonSL options="fonts tabindent" guides="fitch" points="20" late-credit="15"}
 1 P -> ~T :|-: T -> ~P
 2 S <-> Q, ~(S v T) :|-: ~Q
 ~~~
@@ -24,7 +24,7 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 ---
 
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent" guides="fitch" points="20" late-credit="15"}
 3 Ax(Fx -> Gx), AxFx :|-: AxGx
 4 AxAy(Fx -> Gy), Fa :|-: AxGx
 |1.AxAy(Fx -> Gy)	:PR
@@ -32,7 +32,7 @@ For the proofs in FOL, use A for the universal quantifier (&forall;) and E for t
 |3.Ay(Fa -> Gy)	:AE 1
 ~~~
 
-~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent render" guides="fitch" points="20" late-credit="15"}
+~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent" guides="fitch" points="20" late-credit="15"}
 5 Ax(Px -> (Qa v Tx)), AxPx, ~Qa :|-: AxTx & Ey~Qy
 ~~~ 
 
