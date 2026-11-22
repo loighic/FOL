@@ -29,7 +29,7 @@ Use A for the universal quantifier (&forall;) and E for the existential quantifi
 6 Ax(Pa -> Wx), AxPx :|-: AyWy
 ~~~
 
-The handout has an outline for 7.
+The handout has an outline for the proof in 7.
 
 ~~~{.ProofChecker .ForallxQLPlus options="fonts tabindent" guides="fitch" points="20" late-credit="16"}
 7 AxAy(Txy & My), Ax(Tcx -> Px) :|-: AxPx
