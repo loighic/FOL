@@ -12,6 +12,8 @@ title: FOL, assignment 4
 
 <font color="#9900FF">**Do this alone**, and don't discuss it with anyone who hasn't done it. If you need help, contact the instructor.</font>
 
+**This is a contingent assignment.** See the explanation for contingent assignments in the &ldquo;test 2 pre-test assignments&rdquo; module in Canvas.
+
 For the proofs in FOL, use A for the universal quantifier (&forall;) and E for the existential quantifier (&exist;). 
 
 ---
