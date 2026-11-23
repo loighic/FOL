@@ -3,7 +3,7 @@ title: FOL, assignment 4
 ---
 
 
-# first-order logic, assignment 04 (at-home)
+# FOL, assignment 04 (at-home, contingent)
 
 ---
 
